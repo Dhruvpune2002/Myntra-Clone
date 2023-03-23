@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+                  /* margin: 0 and padding: 0 - They stop the navigation's height from changing when we scroll the page
+                   up and down */
+    font-size: 0.95rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left img{
+  width: 40px;
+  height: 30px;
+  padding-top: 26px;
+  padding-left: 20px;
+}
+
+ .container{  
+      padding: 0 8vw; 
+      
+        /* vw is the unit used to measure the width of viewport(the user's visible area of a web page)*/
+        /*padding: 0 8vw and margin: auto - both are used to make the content inside container class to appear in center*/
+}  
+
+.containerHeader  {  
+  padding: 0 8vw; 
+  
+                   /* vw is the unit used to measure the width of viewport(the user's visible area of a web page)*/
+    /*margin: auto;  */
+    /* padding: 0 8vw and margin: auto - both are used to make the content inside container class to appear in center */
+}  
+ 
+ header{
+  box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 20px;
+  position: sticky;
+  top:0;
+  background:white;
+          /* create a box covering the whole navbar and gives shadow at the bottom of navbar */
+}
+
+.rightBox{
+  display: flex;
+  margin: 12px;
+}
+
+ nav{
+  font-size: 13px;
+ }
+
+ nav ul li{
+    list-style: none;
+                   /* removes the dots that appear in-between texts */
+    padding: 20px 15px;
+                   /* top and bottom: 0px, left and right: 20px */
+}
+
+ input{
+  height: 25px; 
+  width: 450px;
+                /* adjusted the height and width of searchbar and the margin to give from top */
+  margin-left: 50px;
+                 /* gives a 50px space between studio and the search bar */
+}
+
+.section1{
+  background: #F7F7F7;  
+  /* height: 100vh;   */
+            /* vh is the unit used to measure the height of viewport(the user's visible area of a web page) */
+}
+
+.search{
+                  /* for styling the searchbar */
+  width: 20vw;
+  border: 0.5px solid grey;          
+                    /* without it, it will look like there are no corners of the box. */
+  background: #F5F5F5;
+  border-radius: 5px;
+}
+
+.tall{
+  min-height: 5vh;
+                /* for incresing the size of footer */
+}
+
+.homeImg{
+  width: 83vw;
+  margin: 20px 0;
+}
+
+footer{
+                      /* for displaying the footer section */
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 15px;
+}
+
+@media(max-width: 400px){
+         /* for a phone like iphone mini which have a comparitively small screen */
+.search{
+width: 72vw;
+}
+}
+
+@media(max-width: 1500px){
+  /* for making the website responsive and for using on a mobile phone of maximum width of 1550px */
+nav ul li{
+list-style: none;
+padding: 0 4px;
+font-size: 10px;
+}
+
+.search{
+width: 72vw;
+border: 0.5px solid grey;          
+background: #F5F5F5;
+border-radius: 5px;
+}
+
+.containerHeader{  
+padding: 0 4vw;
+}
+
+header{
+height: 125px;
+}
+
+nav{
+flex-direction: column;
+/* all items in flexbox should be in a vertical manner */
+align-items: center;  
+}
+
+.right{
+flex-direction: column;
+}
+
+.rightBox{
+display: flex;
+margin: 12px;
+}
+}

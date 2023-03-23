@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Online shopping for Women, Men, Kids, Fashion and Lifestyle</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="utility.css" type="text/css">   
+    <link rel="icon" href="favicon (4).ico">
+                    <!-- using the 'utility' css file so that we can use the utility classes again and again in our code -->
+</head>
+<body>
+    <header class="containerHeader">
+                                      <!-- By help of position:sticky, we can scroll the page up and down. -->
+        <nav class="flex">
+        <!-- <nav class="flex items-center justify-center">     -->
+                        <!-- left navbar ek box ban jayega aur left and right navbar aaspas aa jayenge -->
+            <div class="left flex">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Myntra_Logo.png">
+            <ul class="flex items-center justify-center uppercase semibold">
+                       <!-- items-center and justify-center are utility classes that we will use in utility.css -->
+                       <!-- We are using them to make the left div navbar(logo + Men,Women etc.) to come in center -->
+                <li>Men</li>
+                <li>Women</li>
+                <li>Kids</li>
+                <li>Home and Living</li>
+                <li>Beauty</li>
+                <li>Studio</li>
+            </ul>
+            </div>
+            <div class="right flex items-center">
+              <input class="search" placeholder="Search for products, brands and more" class="desktop-searchBar" 
+              value="" data-reactid="904">
+                                          <!-- for creating a search bar -->
+              <div class="rightBox">
+              <div class="profile mx-2">Profile</div>
+              <div class="wishlist mx-2">Wishlist</div>
+              <div class="bag mx-2">Bag</div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container section1">
+           <!--Section tag defines the section of documents such as chapters, headers, footers or any other sections.  -->
+        <img class="homeImg" src="dealoftheday.png"/> 
+        <img class="homeImg" src="exclusives.png"/> 
+        <img class="homeImg" src="toppicks.png"/> 
+        <img class="homeImg" src="dealsontopbrands.png"/> 
+    </section>
+    <section class="tall">
+
+    </section>
+    <footer class="my-2">
+                      <!-- my-2 is a utility class -->
+        Copyright &copy; myntra.com | All rights reserved
+    </footer>
+    <script src="index.pack.js"></script>
+</body>
+</html>

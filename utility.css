@@ -1,0 +1,31 @@
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+/* .space-around{ */
+    /* justify-content: space-around;     */
+    /* isse search bar text se dur jayegi */
+/* } */
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.semibold{
+        /* A class of tailwind CSS that semibolds the selected item */
+        /* semibold or using strong keyword inside index.html are same. */
+    font-weight: bolder;
+}
+
+.mx-2{
+   margin-left: 12px;
+   margin-right: 12px;
+}
