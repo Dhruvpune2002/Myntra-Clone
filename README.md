@@ -1,4 +1,4 @@
-# Myntra-Clone
+# myntra-clone
 This is a clone of the Myntra website, which is completely made using HTML and CSS. I have added most of the content which gets displayed on the Myntra's home page when we visit their website.
 
 Features include:
